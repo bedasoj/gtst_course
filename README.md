@@ -1,1 +1,1 @@
-This is not written while taking the GTST course
+*This is not written while taking the GTST course*
