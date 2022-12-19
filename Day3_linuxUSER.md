@@ -57,6 +57,7 @@ Softwares for some basic purposes.
 >**Linux commands** are executed on Terminal by pressing Enter at the end of the line. You can run commands to perform various tasks, from package installation to user management and file manipulation.
 
 Here is the list of basic Linux commands👍:
+
 **1️⃣sudo command**
 >Short for superuser do, sudo is one of the most popular basic Linux commands that lets you perform tasks that require administrative or root permissions.
 
