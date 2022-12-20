@@ -27,7 +27,7 @@
     directory starts from the
     **root directory**
 
-    ➡️The only **root user** has the
+➡️The only **_~~root user~~_** has the
     right to write under this
     directory
 
