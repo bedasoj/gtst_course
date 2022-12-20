@@ -166,6 +166,10 @@ To make a new directory called Songs inside Music, use this command:
 🌟**mkdir Music/Songs**
 
 >:star: The mkdir command accepts many options, such as:
-    **-p or –parents** create a directory between two existing folders. For example, mkdir -p Music/2020/Songs will make the new “2020” directory.
-    **-m** sets the file permissions. For instance, to create a directory with full read, write, and execute permissions for all users, enter mkdir -m777 directory_name.
-    **-v** prints a message for each created directory.
+
+ **-p or –parents** create a directory between two existing folders. For example, mkdir -p Music/2020/Songs will make the new “2020” directory.
+
+**-m** sets the file permissions. For instance, to create a directory with full read, write, and execute permissions for all users, enter mkdir -m777 directory_name.
+
+**-v** prints a message for each created directory.
+
