@@ -156,7 +156,7 @@ header-files and documentation.
     ○ Pluma
     ○ …
 
-##🥇 VIM
+## 🥇 VIM
 
 >● Before vi the primary editor used on Unix was the line editor
     ○ User was able to see/edit only one line of the text at a time>
@@ -179,16 +179,22 @@ header-files and documentation.
 >**Vim** is by default on *command mode* when you open it.
 
 ⭐To get on insert mode you have to type **‘i’**
+
 ⭐To get back to *command mode* you press ‘**esc**’ 
 
 ⭐Inside Command mode you can:
-    *○ **Save**: Type **:w + enter**
-    ○**quit**: Type **:q + enter**
-    ○ **Force Quit & Save**: Type **:wq! + enter Force = !**
-    ○ **Undo**: Type:**undo + enter Or :u**
-    ○ **Execute bash commands**: Type **:%! yourcommand***   
 
-##🥈NANO
+○ **Save**: Type **:w + enter**
+
+○**quit**: Type **:q + enter**
+
+○ **Force Quit & Save**: Type **:wq! + enter Force = !**
+
+○ **Undo**: Type:**undo + enter Or :u**
+
+○ **Execute bash commands**: Type **:%! yourcommand***   
+
+## 🥈NANO
 
 The **GNU nano** text editor is a user-friendly,free and open source text editor that usually comes pre-installed in modern Linux systems.
 
@@ -234,7 +240,7 @@ but if users want to have a root access they add sudo in front of the command.*
 
 ⭐ Adduser command
     **○ sudo adduser username**
-    
+
 >The User files are stored inside /etc/passwd
 The User password are stored inside /etc/shadow
 When you create a user it creates a group with that name.
