@@ -78,6 +78,7 @@ $$
 🗯️Examples, /media/cdrom for
 CD-ROM; /media/floppy for floppy drives;
   **/media/cdrecorder for CD writer**
+
   **:nine: /mnt - Temporarily mounted file**
 🌠Temporary *mount* directory where sysadmins can mount filesystems
 
@@ -88,26 +89,29 @@ from individual vendors.
 🌠Add-on applications should be
 installed under either /opt/ or
 /opt/ sub-directory.
+
 :one::one:   **/sbin - Essential system binaries**
 🌠Just like /bin, /sbin also contains binary executables.
 🌠The linux commands located under this directory are used typically by system administrator, for system maintenance purpose.
 
-:one::two:**/tmp - Temporary Files**
+:one::two: **/tmp - Temporary Files**
 🌠Directory that contains temporary files created by system and users.
 🌠deleted when system is rebooted
 
 :one::three: **/usr - User Utilities**
-🌠- Contains binaries, libraries, documentation, and
-source-code for second level programs.
-🌠 - /usr/bin contains binary files for user programs. If
-you can’t find a user binary under /bin, look under
-/usr/bin. For example: at, awk, cc, less, scp
-🌠- /usr/sbin contains binary files for system
-administrators. If you can’t find a system binary
-under /sbin, look under /usr/sbin. For example: atd,
-cron, sshd, useradd, userdel
-🌠- /usr/lib contains libraries for /usr/bin and
-/usr/sbin
+
+🌠- Contains binaries, libraries, documentation, and source-code for second level programs.
+
+🌠 - **/usr/bin** contains binary files for user programs. If you can’t find a user binary under /bin, look under /usr/bin. 
+
+For example: **at, awk, cc, less, scp**
+
+🌠- **/usr/sbin** contains binary files for system administrators. If you can’t find a system binary under /sbin, look under /usr/sbin.
+
+For example: **atd, cron, sshd, useradd, userdel**
+
+🌠- /usr/lib contains libraries for /usr/bin and /usr/sbin
+
 🌠/usr/src holds the Linux kernel sources,
 header-files and documentation.
 
@@ -129,16 +133,19 @@ header-files and documentation.
     ○ …
 
 ##🥇 VIM
-    ● Before vi the primary editor used on Unix was the line editor
-        ○ User was able to see/edit only one line of the text at a time
-    ● Then then vi editor improved and developed VIM. ( VI iMproved)
-    ● The vim editor is:
-        ○ a very powerful
-        ○ but at the same time it is cryptic
-        ○ It is hard to learn, specially for windows users
-    ● It have to modes
-        ○ Command mode -> where you can do commands
-        ○ Input mode -> where you can write
+
+>● Before vi the primary editor used on Unix was the line editor
+    ○ User was able to see/edit only one line of the text at a time
+● Then then vi editor improved and developed VIM. ( VI iMproved)
+
+>● *The vim editor is:
+    ○ a very powerful
+    ○ but at the same time it is cryptic
+    ○ It is hard to learn, specially for windows users*
+
+>● It have two modes
+    **○ Command mode** -> where you can do commands
+    **○ Input mode**-> where you can write
 
 *VIM Syntax:*
        #️⃣ **vim yourfilename**
@@ -153,6 +160,7 @@ header-files and documentation.
     ○ **Execute bash commands**: Type **:%! yourcommand***   
 
 ##🥈NANO
+
 The **GNU nano** text editor is a user-friendly,free and open source text editor that usually comes pre-installed in modern Linux systems.
 
 Syntax:
@@ -184,6 +192,7 @@ but if users want to have a root access they add sudo in front of the command .
 **● SUDO = Superuser do , used to pass permission denied**
 
 ## *Creating Users* 
+
 ● On linux, to create users you can use the following commands
 **○ Useradd -> simple
     ○ Adduser -> Detailed**
@@ -195,11 +204,13 @@ but if users want to have a root access they add sudo in front of the command .
 The User password are stored inside /etc/shadow
 When you create a user it creates a group with that name.
 
-⭐**Accessing a user configuration file.**  
+⭐**Accessing a user configuration file.**
+
   **○ cat /etc/passwd**
 This commands prints the data of the configuration file. This file contains information about the user in the format.  
 
 **username : x : user id : user group id : : /home/username : /bin/bash**
 
 **⭐To access root user**
+
 Command:    **sudo su**
