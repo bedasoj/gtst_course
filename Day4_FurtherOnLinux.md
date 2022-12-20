@@ -1,4 +1,4 @@
-#🌠**Further on Linux**
+# 🌠**Further on Linux**
 ### Topics
     ● Linux File Hierarchy
     ● VIM
@@ -6,7 +6,7 @@
     ● Linux user management
     ● find command
 
-##:one: Linux File Hierarchy 
+## :one: Linux File Hierarchy 
 
     ● Linux/UNIX have a special
        file system than windows.
@@ -35,7 +35,7 @@
     directory, which is not the
     same as **/**
 
-**:two:bin - Binary executables**
+## **:two:bin - Binary executables**
 
 >➡️ Essential command binaries
 that need to be available in
@@ -52,14 +52,14 @@ files are located under /boot
  **Example:** initrd.img-2.6.32-24-generic,
 vmlinuz-2.6.32-24-generic
 
- :four:   **/dev - Essential Device files**
+ ## :four:   **/dev - Essential Device files**
 
 🟥These include terminal devices, usb, or any device attached to the system.
 
 **🕶️Example:** /dev/tty1,
 /dev/usbmon0
 
-:five: **/etc - et cetera**
+## :five: **/etc - et cetera**
 
 >🔶 Contains configuration files
     required by all programs.
@@ -70,25 +70,20 @@ vmlinuz-2.6.32-24-generic
 
 **🗯️  Example:** /etc/resolv.conf,
 
-**:six:  /home - Home directory**
+## **:six:  /home - Home directory**
 
 🔶**Home directories** for all users to store their personal files.
 
 🗯️example:** /home/nathan,
 /home/rexder **
 
-**:seven:/lib - Libraries essential for the
-binaries in /bin & /sbin**
+## **:seven:/lib - Libraries essential for the binaries in /bin & /sbin**
 
-🔶Library filenames are either ld*
-or lib*.so.*
+🔶Library filenames are either ld* or lib*.so.*
 
-🗯️ Example: $$
-ld-2.11.1.so,
-libncurses.so.5.7
-$$
+🗯️ Example: $$ld-2.11.1.so, libncurses.so.5.7 $$
 
-**:eight: /media - Mount points for removable media such as CD-ROMs**
+## **:eight: /media - Mount points for removable media such as CD-ROMs**
 
 🔶 Temporary mount directory for removable devices.
 
@@ -96,12 +91,11 @@ $$
 CD-ROM; /media/floppy for floppy drives;
   **/media/cdrecorder for CD writer**
 
-  **:nine: /mnt - Temporarily mounted file**
+ ## **:nine: /mnt - Temporarily mounted file**
 
 🌠Temporary *mount* directory where sysadmins can mount filesystems
 
-🔟 **/opt - Optional application
-software packages**
+## 🔟 **/opt - Optional application software packages**
 
 🌠Contains add-on applications
 from individual vendors.
@@ -110,19 +104,19 @@ from individual vendors.
 installed under either /opt/ or
 /opt/ sub-directory.
 
-:one::one:   **/sbin - Essential system binaries**
+## :one::one:   **/sbin - Essential system binaries**
 
 🌠Just like /bin, /sbin also contains binary executables.
 
 🌠The linux commands located under this directory are used typically by system administrator, for system maintenance purpose.
 
-:one::two: **/tmp - Temporary Files**
+## :one::two: **/tmp - Temporary Files**
 
 🌠Directory that contains temporary files created by system and users.
 
 🌠deleted when system is rebooted
 
-:one::three: **/usr - User Utilities**
+## :one::three: **/usr - User Utilities**
 
 🌠- Contains binaries, libraries, documentation, and source-code for second level programs.
 
