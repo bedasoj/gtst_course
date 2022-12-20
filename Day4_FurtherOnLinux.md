@@ -174,7 +174,7 @@ header-files and documentation.
 
 *VIM Syntax:*
 
-       #️⃣ **vim yourfilename**
+### #️⃣ vim yourfilename
 
 >**Vim** is by default on *command mode* when you open it.
 
@@ -202,30 +202,45 @@ Syntax:
 **nano filename + enter**
 Then start typing
 
-**Saving, Exiting, Undo and Redo**
+**Saving, Exiting, Undo and Redo**:
+
 >Ctrl + S - save
+
 Alt + U - Undo the ^ is equal to ‘Ctrl’
+
 Alt + E - Redo
+
 Ctrl + X - Exit
-Paste,Copy & paste all over the linux is
+
+Paste,Copy & paste all over the linux is:
+
 Ctrl+shift+C - copy
+
 Ctrl+shift+X - Cut
+
 Ctrl+shift+V - Paste 
 
 ## *Linux User Management* :computer:
->● On Computer system, person who uses the computer is called **“user”**
-● Every Users have Group.
-● Users have their own file & applications.
-● To know our name on linux -> “ whoami “
-● Those users have power/privilege.
-● On linux their is 2 kinds users.
-    ○ Root id = 0
-    ○ Normal User id= 1-999
 
-*The root user have the power to do everything on linux ,
-but if users want to have a root access they add sudo in front of the command.*
+    ● On Computer system, person who uses the computer is called **“user”**
+
+    ● Every Users have Group.
+
+    ● Users have their own file & applications.
+
+    ● To know our name on linux -> “ whoami “
+
+    ● Those users have power/privilege.
+
+    ● On linux their is 2 kinds users.
+
+        ○ Root id = 0
+        ○ Normal User id= 1-999
+
+*The root user have the power to do everything on linux, but if users want to have a root access they add sudo in front of the command.*
 
 **sudo YourCommand**
+
 **● SUDO = Superuser do , used to pass permission denied**
 
 ## *Creating Users* 
