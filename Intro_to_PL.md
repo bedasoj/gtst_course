@@ -45,8 +45,9 @@ Comments can be used to prevent execution when testing code.
 Comments starts with a **#**, and Python will ignore them:
 
 Example
->**#This is a comment**
-        print("Hello, World!")
+**#This is a comment**
+
+ print("Hello, World!")
 
 ### Multi Line Comments
 
@@ -55,20 +56,27 @@ Python does not really have a syntax for multi line comments.
 To add a multiline comment you could insert a # for each line:
 
 Example
->#This is a comment
+    #This is a comment
+
     #written in
+
     #more than just one line
+
     print("Hello, World!")
 
 
 Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
 
 Example
->""" 
+""" 
     This is a comment
+
     written in
+
     more than just one line
+
     """
+
     print("Hello, World!")
 
 
@@ -90,19 +98,19 @@ Variables can store data of different types, and different types can do differen
 
 Python has the following data types built-in by default, in these categories:
 
-**Text Type:	str
+>Text Type:	str
 
-Numeric Types:	int, float, complex
+>Numeric Types:	int, float, complex
 
-Sequence Types:	list, tuple, range
+>Sequence Types:	list, tuple, range
 
-Mapping Type:	dict
+>Mapping Type:	dict
 
-Set Types:	set, frozenset
+>Set Types:	set, frozenset
 
-Boolean Type:	bool
+>Boolean Type:	bool
 
-Binary Types:	bytes, bytearray, memoryview
+>Binary Types:	bytes, bytearray, memoryview
 
-None Type:	NoneType**
+>None Type:	NoneType
 
