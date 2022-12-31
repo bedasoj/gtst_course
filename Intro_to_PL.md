@@ -46,7 +46,7 @@ Comments starts with a **#**, and Python will ignore them:
 
 Example
 >**#This is a comment**
-    print("Hello, World!")
+        print("Hello, World!")
 
 ### Multi Line Comments
 
@@ -56,28 +56,27 @@ To add a multiline comment you could insert a # for each line:
 
 Example
 >#This is a comment
- #written in
- #more than just one line
- print("Hello, World!")
+    #written in
+    #more than just one line
+    print("Hello, World!")
 
 
 Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it:
 
 Example
 >""" 
-This is a comment
-written in
-more than just one line
-"""
-print("Hello, World!")
+    This is a comment
+    written in
+    more than just one line
+    """
+    print("Hello, World!")
 
 
 ### Variables
     ● Variables are a value holders /containers/
     ● They store data
     ● We give some value to some word.
-    ● example : number = 10 => from now on my python program knows the value of
-    number is 10.
+    ● example : number = 10 => from now on my python program knows the value of number is 10.
     ● The process of giving value to word is called Variable Declaration
     ● The word that holds the data is called Identifier
     ● We can Print value of variables by giving the identifier
@@ -92,11 +91,18 @@ Variables can store data of different types, and different types can do differen
 Python has the following data types built-in by default, in these categories:
 
 **Text Type:	str
+
 Numeric Types:	int, float, complex
+
 Sequence Types:	list, tuple, range
+
 Mapping Type:	dict
+
 Set Types:	set, frozenset
+
 Boolean Type:	bool
+
 Binary Types:	bytes, bytearray, memoryview
+
 None Type:	NoneType**
 
