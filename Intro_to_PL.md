@@ -1,9 +1,12 @@
 # Introduction to Python Programming
 
 ### What is Python?
+
 **Python** is a popular programming language.
+
     ● It is a High level & interpreted programming
-    language. => Very easy to learn
+    language. => Very easy to learn.
+
     ● It is Very SImplified language any one can 
      write with it, also can read it.
 
@@ -23,10 +26,14 @@ It is used for:
     ● Hacking Script writing
 
 ### IDE & Code editors
+
 ● IDE ( Integrated Development Enviroment ): Is a
 Software that helps to write & run a Specific Programming language.
+
       Example: PythonIDE
+
 ● Code Editors: are softwares those can help to write any kind of programming languages. And also by adding some compiling/ interpreting feature they can run programs/scripts.
+
   Example: Sublime,Vscode
 
 ### Python Comments
@@ -76,7 +83,8 @@ print("Hello, World!")
     ● We can Print value of variables by giving the identifier
 
  ## Python Data Types
-###Built-in Data Types
+### Built-in Data Types
+
 In programming, data type is an important concept.
 
 Variables can store data of different types, and different types can do different things.
