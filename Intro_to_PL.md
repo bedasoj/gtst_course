@@ -1,6 +1,6 @@
-#Introduction to Python Programming
+# Introduction to Python Programming
 
-###What is Python?
+### What is Python?
 **Python** is a popular programming language.
     ● It is a High level & interpreted programming
     language. => Very easy to learn
@@ -13,7 +13,7 @@ It is used for:
     ●  mathematics,
     ●  system scripting.
 
-###Uses of Python
+### Uses of Python
     ● Data visualization
     ● Data analysis
     ● Machine learning
@@ -22,14 +22,14 @@ It is used for:
     ● Game development
     ● Hacking Script writing
 
-###IDE & Code editors
+### IDE & Code editors
 ● IDE ( Integrated Development Enviroment ): Is a
 Software that helps to write & run a Specific Programming language.
       Example: PythonIDE
 ● Code Editors: are softwares those can help to write any kind of programming languages. And also by adding some compiling/ interpreting feature they can run programs/scripts.
   Example: Sublime,Vscode
 
-###Python Comments
+### Python Comments
 Comments can be used to explain Python code.
 Comments can be used to make the code more readable.
 Comments can be used to prevent execution when testing code.
@@ -41,7 +41,8 @@ Example
 >**#This is a comment**
     print("Hello, World!")
 
-###Multi Line Comments
+### Multi Line Comments
+
 Python does not really have a syntax for multi line comments.
 
 To add a multiline comment you could insert a # for each line:
@@ -64,7 +65,7 @@ more than just one line
 print("Hello, World!")
 
 
-###Variables
+### Variables
     ● Variables are a value holders /containers/
     ● They store data
     ● We give some value to some word.
